@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Road Trip</string>
+    <string name="welcome">Welcome to Road Trip</string>
+    <string name="greet_msg">The best tracker or road keeping aware of road situations by improve your safety in your car</string>
+    <string name="Email_tx">Email: mahdi@example.com</string>
+    <string name="start_botton">Getting started</string>
+    <string name="signIn_tex">SIGN IN</string>
+    <string name="signUp_tex">SIGN UP</string>
+    <string name="login_botton">Log in</string>
+    <string name="signUp_botton">Sign Up</string>
+    <string name="license_agrement">I accept the terms of the end user license agreement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="passwordConfig">password configuration</string>
+    <string name="Name_tv">Name</string>
+    <string name="passowrd_tv">Password</string>
+
+    <string name="car" translatable="false">car</string>
+    <string name="title_activity_map" translatable="false">MapActivity</string>
+    <string name="profile">profile</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="Mahdi_M_Khrrousheh">Mahdi M. khrrousheh</string>
+    <string name="appinformation">This app support your trip with tracking the road situation, and allows you to notify the other vehicles with your situation on the road to help you find the optimal road for your trip.</string>
+    <string name="moreinformation">and we can tracking your health measures through some accessories i.n. Mi band, apple watch, and any smart app.</string>
+    <string name="lastinformation">supporting center connected directly with police station just in case of any emergency</string>
+    <string name="info" translatable="false">Info</string>
+    <string name="linking">connecting to</string>
+</resources>

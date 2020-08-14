@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="204dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:background="@drawable/option"
+        android:text="@string/signUp_tex"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="204dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:background="@drawable/option"
+        android:text="@string/signIn_tex"
+        android:textAlignment="center" />
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/reMail_textF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="16dp"
+        android:alpha=".8"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text"
+        android:hint="@string/Email_tx"
+        android:importantForAutofill="yes"
+        android:inputType="textEmailAddress"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/repass_textF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:alpha=".8"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text"
+        android:hint="@string/passowrd_tv"
+        android:importantForAutofill="yes"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/reconfigass_textF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:alpha=".8"
+        android:autofillHints=""
+        android:background="@drawable/rounded_text"
+        android:hint="@string/passwordConfig"
+        android:importantForAutofill="yes"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/reLogin_button"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+
+        android:layout_gravity="center"
+        android:alpha=".9"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/signUp_tex"
+        android:textAlignment="center"
+        android:textColor="#c6c6c6"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

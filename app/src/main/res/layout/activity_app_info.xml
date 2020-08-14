@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_Info"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#2a2e43"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/mprofilepic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_profile_pic" />
+
+        <Button
+            android:id="@+id/mmmap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/ic_map" />
+
+        <Button
+            android:id="@+id/health"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/health" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_info" />
+
+        <Button
+            android:id="@+id/safe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_verified" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <ImageView
+            android:id="@+id/myinfo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/profile"
+            app:srcCompat="@drawable/ic_info_black_24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appinformation"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/moreinformation"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastinformation"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Road Trip</string>
+    <string name="welcome">"مرحباً بك "</string>
+    <string name="greet_msg">التطبيق اللذي يعتني بجميع حلاتك على الطريق من خلال متابعة احوال الطرق وتنبيهك بها ويحافظ على سلامتك داخل السيارة</string>
+    <string name="Email_tx">حسابك الالكتروني</string>
+    <string name="start_botton">فلنبدأ</string>
+    <string name="signIn_tex">دخول</string>
+    <string name="signUp_tex">تسجيل الدخول</string>
+    <string name="signUp_botton">إدراج</string>
+    <string name="login_botton">تسجيل</string>
+    <string name="license_agrement">أوافق على شروط اتفاقية ترخيص المستخدم النهائي</string>
+    <string name="Name_tv">الاسم</string>
+    <string name="passowrd_tv">كلمة المرور</string>
+    <string name="passwordConfig">تأكيد كلمة المرور</string>
+    <string name="profile">الملف الشخصي</string>
+</resources>
